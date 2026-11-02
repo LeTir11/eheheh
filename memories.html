@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Memories ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="language-switch">
+        <button onclick="setMemoryLanguage('en')">🇬🇧 EN</button>
+        <button onclick="setMemoryLanguage('fr')">🇨🇦 FR</button>
+    </div>
+
+    <main class="memories-container">
+
+        <div class="moon maple-leaf">🍁</div>
+
+        <p id="memory-subtitle">
+            Every little moment with you is special.
+        </p>
+
+        <div class="memory-grid">
+
+            <div class="memory-card" onclick="openMemory(1)">
+                <div class="memory-icon">💗</div>
+                <h2 id="card-title-1">A little happiness</h2>
+                <p id="card-text-1">Click to open</p>
+            </div>
+
+            <div class="memory-card" onclick="openMemory(2)">
+                <div class="memory-icon">🌸</div>
+                <h2 id="card-title-2">My favorite person</h2>
+                <p id="card-text-2">Click to open</p>
+            </div>
+
+            <div class="memory-card" onclick="openMemory(3)">
+                <div class="memory-icon">✨</div>
+                <h2 id="card-title-3">A special wish</h2>
+                <p id="card-text-3">Click to open</p>
+            </div>
+
+        </div>
+
+        <div class="photo-gallery">
+
+    <div class="memory-photo photo-one">
+        <img src="images/imagesphoto2.jpg" alt="Our memory">
+    </div>
+
+    <div class="memory-photo photo-two">
+        <img src="images/imagesphoto3.jpg" alt="Another memory">
+    </div>
+
+    <div class="memory-photo photo-three">
+        <img src="images/imagesphoto4.jpg" alt="A special memory">
+    </div>
+
+</div>
+
+        <button class="enter-button" onclick="goToQuestion()" id="question-button">
+            One more thing... 💌
+        </button>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

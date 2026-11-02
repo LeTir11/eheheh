@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>One Important Question ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="language-switch">
+        <button onclick="setQuestionLanguage('en')">🇬🇧 EN</button>
+        <button onclick="setQuestionLanguage('fr')">🇨🇦 FR</button>
+    </div>
+
+    <main class="question-container">
+
+        <div class="big-heart">💗</div>
+
+        <p id="question-subtitle">I HAVE SOMETHING TO ASK YOU...</p>
+
+        <h1 id="question-title">
+            "Will you be<br>mine?"
+        </h1>
+
+        <p id="question-description">
+            You've made my little universe brighter.<br>
+            And I have one very important question...
+        </p>
+
+        <div class="answer-area">
+            <button class="yes-button" onclick="sayYes()" id="yes-button">
+                YES! 💖
+            </button>
+
+            <button class="no-button" id="no-button">
+                NO 🙃
+            </button>
+        </div>
+
+        <p class="question-footer" id="question-footer">
+            Choose wisely, my sunshine ☀️
+        </p>
+
+    </main>
+
+    <div id="celebration" class="celebration hidden">
+
+        <div class="celebration-content">
+
+            <h1 id="success-title">
+                YOU MADE ME THE HAPPIEST! ❤️
+            </h1>
+
+            <p id="success-message">
+                I can't wait to create a million beautiful memories with you.
+            </p>
+
+            <div class="success-heart">💗</div>
+
+            <p id="success-signature">
+                I love you, my sunshine ☀️
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
